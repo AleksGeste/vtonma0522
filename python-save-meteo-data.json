@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "python-save-meteo-data",
+  "private_key_id": "7c48caf825e03841b6c7ea4f13aed2533dcab3c0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCka6Da82y+wOb5\nJ/FC1utSWr44ROSsWU+fxBv6Nbe9eciTxo3Rpo4YNr2st4+Y83orQPuR9Z6JZTev\n5khP1MoEZ4tsf3LsxWxR2vCKhm72nMrKOs9gC6c6G/Ayq1tedvWWkVUlttthfZ7/\nrwu5JL6DCrJIU/pJWgZhKFzffaDnVl3o8BSXBodB5V/+DmR1DYXELlKI+6lfCL3o\no9EzQQ2zJdy+bHvuHAlouFzU/t8UzTtb0SAmVc25MPJBKLnh2QEHa0HSWj9IpUXA\njER372wwrcrSsMy9nH1YVQssMxpf0f+B7My7gteLhgc8yNBFcx55YM46pjwZ/UeK\naSSz14kxAgMBAAECggEAHSx9t6venUAkG4yDSf1RduTkAJ70xkH4l1wYLL7QUd3k\ngZgG/O6lItW/tQBDCfwVrswSdzUSQsXDakIdjZCvobVvrzoz/aAQFrwW1zWAReDP\nOK/TsPKQYwanCY6PIUVRUTyLU6xM49EC39JC7cB/z0ecF6pS7CX9oMqlJACqBrHq\nilpV0yP9OJYNw/P2VC0MMNK1/GajTi7zFr3sS0ZdP2z1k2KUVQhu0LFwDtU3Y7md\nbN9dQ16+Sdq/3P+ECHOSwamMCgt8RmwBWdmMormQ4QbMKRGAPzZuRDgZgpqu/KtN\nT6FV8UCy8rwWrZxCm8B8DdybSv+NfA60//L/kfQgqwKBgQDofohRvo2Wt6aH+lcb\nyuWrw7Az/tf4wVdkySFzzm7o0ncN/AvHnRKRZbadagFRfGYpnSsZ6BCobOd95fw9\nZt9pFNGMs6OmLDtr11tRxTWd2+TH9ZJdygVPA9lLnhgJEjhmrgw3XhUDZOtBIAzP\ngW3R4QGwAs1Y07jlMw4qv8kMgwKBgQC1CzGW7/0IK9yVa1tjNil4/DaCVKEovn1E\nFWpHneQV7ycvWl1zz3wPQE07MMyQqu2TsBROD8ZIDq1uJ0xil3Lpt3vZ0+f7Po1p\nBZTiiH8wZ8qJf6mENpPx++Mw7V7v/KJIRASQr1I9WbB13+icf6mW6OjRVDHcfdFE\nYCOssXUNOwKBgQDZcv8s9XyYKsynAY3XgL2vGSgEeaamEq8apMOU/M7fE3omqkaa\nPF7RfsB+GleBT0h+Q3G8mUB7RuB88E4rX7w1HDOh1aKKGXS6OIJAyKKNMs2X+Ccd\ncYXlkUP7ZbI1ScVWxBLI9kXRFuKx1rgknHmKg1iAtx44pk2YkVf+w8HW4QKBgHwK\nTVGi3/SHSLy/L4AMDeIsu5QUM87cpKrPGWA0F5/HmUtiWIEOeWthnQie6Kl90wTL\nMT5CpJGeLMk596XdKghjhGG8REbplq2L+3QyHSKnGieW5igF1NuIvyI4oEFBEFb+\n8znGRUxvdO1uGcuP1DvnHAy/6OGu+oAkdozNkOsdAoGAUeTQSveofb0iRoKI9jyP\nQP7eDVpb764yenGgrZo5O3GemCNsx7nvexbTi7xEQrvtISmM/MzyBgBMWIu/B5xC\nqFGiDw72CHa8oZOFy45+mCsyJ2vc4gW6MTIdjHRa3vHBPDwenZp6LNt4Hfc0f7At\nQnqDzXsc/PzPPal7AZDoq5E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-sheets@python-save-meteo-data.iam.gserviceaccount.com",
+  "client_id": "113527870193051375820",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-sheets%40python-save-meteo-data.iam.gserviceaccount.com"
+}
