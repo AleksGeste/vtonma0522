@@ -1,17 +1,12 @@
-import schedule
 import requests
+import time
 import smtplib
 import datetime
-import os, time
+import os
 import json
-import socket
-
 import gspread
 
 from oauth2client.service_account import ServiceAccountCredentials
-
-from bs4 import BeautifulSoup
-from datetime import date
 from email.message import EmailMessage
 
 scope = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive.file',
@@ -407,8 +402,6 @@ def send_emails(subject, body):
     email_alert("alina.rugine@vto.lv", subject, body)
     email_alert("mainas.prieksnieksPK2@vto.lv", subject, body)
     email_alert("aleksandrs.cikinovs@gmail.com", subject, body)
-    email_alert("nadezda.fjodorova@vto.lv", subject, body)
-    email_alert("vjaceslavs.krotovs@vto.lv", subject, body)
 
 # date and time detection function
 def current_date():
@@ -460,7 +453,7 @@ def job():
     reset_nma_count()
     current_nma_count.update_acell('E2', current_month())
     print("... is UP! Date is: " + current_date() + " Time is: " + current_time() + " Dir: " + str(wind_direction) + " Speed: " + str(wind_speed))
-    data_to_send = [current_date(), current_time(), str(wind_direction), str(wind_speed)]
+    data_to_send = [current_date(), current_time(), str(wind_direction), wind_speed]
     save_data_from_vbp_meteo(data_to_send)
     start_dma(wind_speed, wind_direction)
 
