@@ -142,9 +142,9 @@ def start_dma(speed, direction):
         print('Direction is: ', str(direction))
 
 #         if direction == "Z":
-        if direction > 270 and direction < 125:
+        if direction > 270 or direction < 125:
 
-            print('Start - if direction > 270 and direction < 125')
+            print('Start - if direction > 270 or direction < 125')
             print("It is Z. And It is PK-1")
 
             if get_dma_pk_1() != True:
@@ -187,8 +187,8 @@ def start_dma(speed, direction):
             print('End - if direction == "Z"')
 
 #         elif direction == "Z-A":
-        elif direction > 20 and direction < 70:
-            print('Start - elif direction > 20 and direction < 70')
+        elif direction > 20 or direction < 70:
+            print('Start - elif direction > 20 or direction < 70')
             print("It is Z-A. And It is PK-1 and PK-3")
 
             if get_dma_pk_1() != True:
@@ -232,8 +232,8 @@ def start_dma(speed, direction):
             print('End - elif direction == "Z-A"')
 
 #         elif direction == "D-R":
-        elif direction > 200 and direction < 250:
-            print('Start - elif direction > 200 and direction < 250')
+        elif direction > 200 or direction < 250:
+            print('Start - elif direction > 200 or direction < 250')
             print("It is D-R. And It is PK-3")
 
             if get_dma_pk_3() != True:
@@ -276,8 +276,8 @@ def start_dma(speed, direction):
             print('End - elif direction == "D-R"')
 
 #         elif direction == "D":
-        elif direction > 170 and direction < 190:
-            print('Start - elif direction > 170 and direction < 190')
+        elif direction > 170 or direction < 190:
+            print('Start - elif direction > 170 or direction < 190')
             print("It is D. And It is PK-2")
 
             if get_dma_pk_2() != True:
@@ -334,7 +334,7 @@ def start_dma(speed, direction):
         print('End - elif wind speed < 3.5')
 
 #     elif direction == "A":
-    elif direction > 80 and direction < 100:
+    elif direction > 80 or direction < 100:
         print('Start - elif direction == "A"')
         all_state_to_off()
         print('End - elif direction == "A"')
