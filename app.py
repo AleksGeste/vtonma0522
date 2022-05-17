@@ -402,6 +402,8 @@ def send_emails(subject, body):
     email_alert("alina.rugine@vto.lv", subject, body)
     email_alert("mainas.prieksnieksPK2@vto.lv", subject, body)
     email_alert("aleksandrs.cikinovs@gmail.com", subject, body)
+    email_alert("nadezda.fjodorova@vto.lv", subject, body)
+    email_alert("vjaceslavs.krotovs@vto.lv", subject, body)
 
 # date and time detection function
 def current_date():
